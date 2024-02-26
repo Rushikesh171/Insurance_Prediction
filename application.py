@@ -29,5 +29,4 @@ def predict():
     except Exception as e:
         return render_template('op.html', pred='Error calculating Amount! {}'.format(e))
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+
